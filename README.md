@@ -1,155 +1,123 @@
-```markdown
+````markdown
 # Cisco CCNA (200-301 v1.1) Complete Study Guide
 
 <p align="center">
 
-# 🌐 Master the Cisco CCNA Certification
+# 🌐 Master the Cisco CCNA
 
-**A free, open-source, community-driven study guide designed to help you pass the Cisco CCNA 200-301 v1.1 exam and become a better network engineer.**
+**A free, open-source study guide for the Cisco CCNA (200-301 v1.1) certification.**
+
+Learn networking from the ground up with detailed explanations, diagrams, labs, troubleshooting exercises, and real-world examples.
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![CCNA](https://img.shields.io/badge/CCNA-200--301%20v1.1-red)
-![Markdown](https://img.shields.io/badge/Built%20With-Markdown-success)
-![Status](https://img.shields.io/badge/Status-Under%20Development-brightgreen)
+![Status](https://img.shields.io/badge/Status-In%20Development-brightgreen)
+![Built With](https://img.shields.io/badge/Built%20With-Markdown-success)
 
 </p>
 
 ---
 
-## 📖 About This Project
+## 📖 About
 
-This repository contains a comprehensive study guide for the **Cisco Certified Network Associate (CCNA) 200-301 v1.1** certification exam.
+Welcome to the **Cisco CCNA (200-301 v1.1) Complete Study Guide**.
 
-Rather than simply teaching commands to memorize, this guide explains **how networking works** from first principles. Every lesson builds on the previous one using plain-English explanations, diagrams, real-world examples, hands-on labs, and troubleshooting exercises.
+This project is a comprehensive, community-friendly resource designed to help you build a solid understanding of networking while preparing for the Cisco Certified Network Associate (CCNA) certification.
 
-Whether you're new to networking or refreshing your knowledge, this guide is designed to help you develop the understanding needed to pass the exam and succeed in real-world IT environments.
+Instead of simply memorizing Cisco commands, you'll learn **how networks actually work**. Every topic is explained using plain language before moving into the technical details required for the exam.
+
+Whether you're studying for your first IT certification or refreshing your networking knowledge, this guide is designed to take you from the fundamentals to advanced CCNA topics.
 
 ---
 
-## 🎯 Who This Guide Is For
+## 🎯 Who Is This Guide For?
 
-This study guide is ideal for:
+This guide is designed for:
 
-- Beginners with little or no networking experience
+- Students preparing for the CCNA exam
+- Beginners learning networking
 - Help Desk Technicians
 - Desktop Support Engineers
 - Systems Administrators
 - Network Engineers
 - Cloud Engineers
 - Cybersecurity Professionals
-- DevOps Engineers
-- Students preparing for the Cisco CCNA certification
+- Anyone wanting a deeper understanding of computer networking
+
+No previous Cisco experience is required.
 
 ---
 
-# 📚 CCNA Exam Domains
+## 📚 CCNA Exam Domains
 
-| Domain | Exam Weight |
-|---------|------------:|
-| Network Fundamentals | 20% |
-| Network Access | 20% |
-| IP Connectivity | 25% |
-| IP Services | 10% |
-| Security Fundamentals | 15% |
-| Automation & Programmability | 10% |
+| Domain | Weight |
+|---------|-------:|
+| Network Fundamentals | **20%** |
+| Network Access | **20%** |
+| IP Connectivity | **25%** |
+| IP Services | **10%** |
+| Security Fundamentals | **15%** |
+| Automation & Programmability | **10%** |
 
 ---
 
-# 🗺 Repository Roadmap
+## 🚀 Getting Started
 
+The lessons are designed to be completed in order.
+
+Start with the first lesson and work your way through each section while completing the accompanying labs.
+
+**Start here:**
+
+```text
+docs/fundamentals/01-Routers.md
 ```
 
-CCNA-Study-Guide
+---
+
+## 📂 Repository Structure
+
+```text
+CCNA-Study-Guide/
 │
 ├── README.md
 ├── LICENSE
 │
-├── docs
-│   ├── fundamentals
-│   ├── network-access
-│   ├── ip-connectivity
-│   ├── ip-services
-│   ├── security
-│   ├── automation
-│   ├── cheat-sheets
+├── docs/
+│   ├── fundamentals/
+│   ├── network-access/
+│   ├── ip-connectivity/
+│   ├── ip-services/
+│   ├── security/
+│   ├── automation/
+│   ├── cheat-sheets/
 │   ├── glossary.md
 │   └── acronyms.md
 │
-├── labs
-│
-├── practice-exams
-│
-├── flashcards
-│
-└── assets
-
+├── labs/
+├── flashcards/
+├── practice-exams/
+└── assets/
 ```
 
 ---
 
-# 📖 Table of Contents
+## 📘 What You'll Learn
 
-- [Getting Started](#-getting-started)
-- [Repository Structure](#-repository-structure)
-- [Study Roadmap](#-study-roadmap)
-- [Features](#-features)
-- [Recommended Lab Software](#-recommended-lab-software)
-- [How to Study](#-how-to-study)
-- [Contributing](#-contributing)
-- [License](#-license)
-
----
-
-# 🚀 Getting Started
-
-The lessons are designed to be completed in order.
-
-Begin with the fundamentals before moving into switching, routing, security, and automation.
-
-**Recommended starting point:**
-
-```
-
-docs/
-└── fundamentals/
-└── 01-Routers.md
-
-```
-
----
-
-# 📂 Repository Structure
-
-| Folder | Description |
-|---------|-------------|
-| **docs/** | Complete study guide lessons |
-| **labs/** | Packet Tracer and GNS3 labs |
-| **practice-exams/** | Practice questions and mock exams |
-| **flashcards/** | Study flashcards |
-| **assets/** | Images, diagrams, icons, and topology files |
-| **cheat-sheets/** | Quick reference sheets |
-
----
-
-# 📘 Study Roadmap
-
-## 1. Network Fundamentals
+### Network Fundamentals
 
 - Routers
 - Layer 2 Switching
 - Layer 3 Switching
-- Firewalls
-- Wireless
 - Ethernet
-- TCP vs UDP
+- Cabling
 - IPv4
 - IPv6
-- Cabling
+- TCP vs UDP
+- Wireless Networking
 - Virtualization
 
----
-
-## 2. Network Access
+### Network Access
 
 - VLANs
 - Trunking
@@ -158,76 +126,68 @@ docs/
 - Wireless LANs
 - Device Management
 
----
+### IP Connectivity
 
-## 3. IP Connectivity
-
-- Routing Tables
 - Static Routing
 - OSPF
-- Longest Prefix Match
+- Routing Tables
 - Administrative Distance
+- Longest Prefix Match
 - First Hop Redundancy
 
----
-
-## 4. IP Services
+### IP Services
 
 - NAT
 - DHCP
 - DNS
 - NTP
-- SSH
-- QoS
 - SNMP
 - Syslog
+- QoS
+- SSH
 
----
+### Security Fundamentals
 
-## 5. Security Fundamentals
-
-- Security Concepts
+- ACLs
 - AAA
 - VPNs
-- ACLs
-- DHCP Snooping
 - Port Security
+- DHCP Snooping
+- Dynamic ARP Inspection
 - Wireless Security
 
----
+### Automation & Programmability
 
-## 6. Automation & Programmability
-
-- SDN
+- Software Defined Networking
 - REST APIs
 - JSON
 - Ansible
 - Terraform
-- AI & Machine Learning in Networking
+- AI & Machine Learning
 
 ---
 
-# ⭐ Features
+## ⭐ Features
 
-- Comprehensive CCNA exam coverage
+- Complete CCNA 200-301 v1.1 coverage
 - Beginner-friendly explanations
-- Professional network diagrams
+- Professional diagrams
 - Binary walkthroughs
 - Cisco IOS configuration examples
 - Verification commands
-- Troubleshooting scenarios
-- Practice questions
+- Troubleshooting exercises
 - Packet Tracer labs
-- Exam tips throughout each chapter
-- Real-world networking examples
+- Practice questions
+- Flashcards
 - Quick-reference cheat sheets
-- Flashcards for review
+- Real-world examples
+- Exam tips throughout every chapter
 
 ---
 
-# 🖥 Recommended Lab Software
+## 💻 Recommended Lab Software
 
-To get the most from this guide, you'll need hands-on practice.
+Hands-on practice is essential.
 
 Recommended tools include:
 
@@ -237,86 +197,68 @@ Recommended tools include:
 - EVE-NG *(optional)*
 - Wireshark
 
-Every major lesson includes practical lab exercises to reinforce the concepts.
+Every major lesson includes practical labs designed to reinforce the concepts covered.
 
 ---
 
-# 💡 How to Study
+## 💡 Recommended Study Method
 
-For every lesson:
+For each lesson:
 
-1. Read the lesson carefully.
+1. Read the lesson.
 2. Study the diagrams.
-3. Complete the hands-on lab.
+3. Complete the lab.
 4. Verify your configuration.
-5. Troubleshoot intentional problems.
+5. Troubleshoot common problems.
 6. Complete the review questions.
-7. Move on to the next lesson.
+7. Continue to the next lesson.
 
-Understanding *why* a technology works is far more valuable than memorizing commands.
+Networking is best learned through consistent hands-on practice.
 
 ---
 
-# 📈 Project Status
+## 📈 Project Status
 
 | Component | Status |
 |-----------|--------|
 | Lessons | 🚧 In Progress |
 | Labs | 🚧 In Progress |
 | Diagrams | 🚧 In Progress |
-| Practice Exams | 🚧 In Progress |
-| Cheat Sheets | 🚧 In Progress |
 | Flashcards | 🚧 In Progress |
+| Practice Exams | 🚧 In Progress |
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome.
 
-If you'd like to improve the guide:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a Pull Request.
-
-Suggestions, corrections, and new labs are always appreciated.
+If you find an error, have suggestions for improvement, or would like to contribute additional labs or diagrams, feel free to open an issue or submit a pull request.
 
 ---
 
-# 📄 License
+## 📄 License
 
-This project is licensed under the MIT License.
-
-See the **LICENSE** file for details.
+This project is licensed under the **MIT License**.
 
 ---
 
-# ⚠ Disclaimer
+## ⚠️ Disclaimer
 
 Cisco®, CCNA®, Cisco IOS®, and related trademarks are the property of Cisco Systems, Inc.
 
-This project is an independent educational resource and is **not affiliated with, endorsed by, or sponsored by Cisco Systems**.
+This project is an independent educational resource and is **not affiliated with, endorsed by, or sponsored by Cisco Systems.**
 
 ---
 
-# ⭐ Support the Project
+## ⭐ Support the Project
 
-If you find this study guide helpful:
+If this study guide helps you:
 
 - ⭐ Star the repository
 - 🍴 Fork the repository
 - 🛠 Contribute improvements
-- 📢 Share it with others studying for the CCNA
+- 📢 Share it with others preparing for the CCNA
 
-Your support helps make this project a valuable resource for the networking community.
-
----
-
-# 🚀 Start Learning
-
-➡ **Begin with:** `docs/fundamentals/01-Routers.md`
-
-Happy studying, and good luck earning your **CCNA certification!**
-```
+Together we can build one of the most comprehensive free CCNA resources available.
+````
