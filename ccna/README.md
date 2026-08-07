@@ -1,46 +1,45 @@
 # Cisco CCNA (200-301 v1.1) Complete Study Guide
 
 ![Cisco](https://img.shields.io/badge/Cisco-CCNA-blue)
-![Version](https://img.shields.io/badge/Exam-200--301_v1.1-green)
+![Exam](https://img.shields.io/badge/Exam-200--301_v1.1-success)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![Markdown](https://img.shields.io/badge/Built_with-Markdown-informational)
+![Markdown](https://img.shields.io/badge/Built%20With-Markdown-informational)
 
-A comprehensive, beginner-friendly study guide covering every objective in the **Cisco CCNA 200-301 v1.1** certification exam.
+A comprehensive, exam-focused study guide covering every objective in the **Cisco Certified Network Associate (CCNA) 200-301 v1.1** certification exam.
 
-This repository is designed to teach networking from the ground up while preparing you for the CCNA exam through detailed explanations, diagrams, labs, review questions, and troubleshooting exercises.
+This repository is designed to teach the concepts required to pass the CCNA exam using detailed explanations, diagrams, CLI examples, Packet Tracer labs, troubleshooting scenarios, and review questions.
 
 ---
 
-# Learning Path
+# About This Repository
 
-Although Cisco organizes the exam into six domains, **foundational knowledge should be learned first** before attempting advanced routing, switching, automation, or cloud technologies.
+This study guide closely follows the official **Cisco CCNA 200-301 v1.1** exam blueprint.
 
-Recommended learning order:
+Each lesson is written in beginner-friendly language while providing the technical depth expected on the certification exam.
 
-1. **CCNA (Networking Fundamentals)**
-2. **Linux Foundation Certified System Administrator (LFCS)**
-3. **Python Programming**
-4. Docker
-5. Azure / AWS / Google Cloud
-6. Kubernetes
-7. Infrastructure as Code
-8. DevOps
-9. AI Infrastructure
+Every chapter includes:
 
-Networking is the foundation upon which modern cloud and AI infrastructure is built.
+- 📖 Detailed explanations
+- 🖼️ Network diagrams
+- 💻 Cisco IOS CLI examples
+- 🧪 Packet Tracer labs
+- 🔍 Troubleshooting exercises
+- 💡 CCNA exam tips
+- ⚠️ Common exam mistakes
+- ❓ Review questions
 
 ---
 
 # Exam Information
 
-| Exam | CCNA |
-|-------|------|
+| Item | Details |
+|------|---------|
+| Certification | Cisco Certified Network Associate (CCNA) |
 | Exam Code | 200-301 |
-| Current Version | v1.1 |
-| Time | 120 Minutes |
-| Questions | Approximately 90-100 |
-| Passing Score | Not Public |
-| Question Types | Multiple Choice, Drag-and-Drop, Simlets, CLI Labs |
+| Version | v1.1 |
+| Exam Time | 120 Minutes |
+| Questions | Approximately 90–100 |
+| Question Types | Multiple Choice, Multiple Answer, Drag-and-Drop, CLI Simulations, Simlets |
 
 ---
 
@@ -53,82 +52,117 @@ Networking is the foundation upon which modern cloud and AI infrastructure is bu
 | 3. IP Connectivity | 25% |
 | 4. IP Services | 10% |
 | 5. Security Fundamentals | 15% |
-| 6. Automation & Programmability | 10% |
+| 6. Automation and Programmability | 10% |
 
 ---
 
 # Repository Structure
 
-## 1. Network Fundamentals (20%)
+```
+CCNA-200-301/
+│
+├── README.md
+├── LICENSE
+│
+├── 01-Network-Fundamentals/
+├── 02-Network-Access/
+├── 03-IP-Connectivity/
+├── 04-IP-Services/
+├── 05-Security-Fundamentals/
+└── 06-Automation-and-Programmability/
+```
 
-### 1.1 Network Components
+---
+
+# 1. Network Fundamentals (20%)
+
+## 1.1 Explain the Role and Function of Network Components
 
 - Routers
 - Layer 2 Switches
 - Layer 3 Switches
-- Next Generation Firewalls
+- Next-Generation Firewalls
 - Intrusion Prevention Systems (IPS)
 - Wireless Access Points
-- Wireless Controllers
-- End Devices
+- Wireless LAN Controllers
+- Endpoints
 - Servers
 - Power over Ethernet (PoE)
 
-### 1.2 Network Topologies
+---
+
+## 1.2 Describe Network Topology Architectures
 
 - Two-Tier
 - Three-Tier
 - Spine-Leaf
 - WAN
 - SOHO
-- Cloud vs On-Premises
+- On-Premises
+- Cloud
 
-### 1.3 Physical Media
+---
+
+## 1.3 Compare Physical Interfaces and Cabling Types
 
 - Copper Ethernet
+- Single-Mode Fiber
 - Multimode Fiber
-- Single-mode Fiber
-- Shared Media
-- Point-to-Point Connections
+- Shared Ethernet Media
+- Point-to-Point Links
 
-### 1.4 Interface Problems
+---
 
+## 1.4 Identify Interface and Cable Issues
+
+- Collisions
+- CRC Errors
 - Duplex Mismatch
 - Speed Mismatch
-- CRC Errors
 - Runts
 - Giants
-- Late Collisions
 
-### 1.5 TCP vs UDP
+---
+
+## 1.5 Compare TCP and UDP
 
 - TCP
 - UDP
-- Headers
 - Reliability
-- Ports
+- Connection-Oriented vs Connectionless
+- Common Port Numbers
+- Header Comparison
 
-### 1.6 IPv4 Addressing
+---
+
+## 1.6 Configure and Verify IPv4 Addressing and Subnetting
 
 - Binary
+- CIDR
 - Subnetting
 - VLSM
-- CIDR
 - Route Summarization
 
-### 1.7 Private IPv4
+---
+
+## 1.7 Describe Private IPv4 Addressing
 
 - RFC1918
-- NAT
-- Public vs Private
+- Public vs Private Addresses
+- NAT Overview
 
-### 1.8 IPv6 Addressing
+---
 
-- Prefix Length
-- Compression
-- Expansion
+## 1.8 Configure and Verify IPv6 Addressing
 
-### 1.9 IPv6 Address Types
+- IPv6 Format
+- Prefix Lengths
+- Address Compression
+- Address Expansion
+
+---
+
+## 1.9 Describe IPv6 Address Types
 
 - Global Unicast
 - Unique Local
@@ -137,206 +171,426 @@ Networking is the foundation upon which modern cloud and AI infrastructure is bu
 - Multicast
 - Modified EUI-64
 
-### 1.10 IP Verification
+---
+
+## 1.10 Verify IP Parameters for Client Operating Systems
 
 - Windows
 - Linux
 - macOS
 
-### 1.11 Wireless Fundamentals
+---
+
+## 1.11 Describe Wireless Principles
 
 - RF
-- Channels
 - SSID
-- Encryption
+- Nonoverlapping Wi-Fi Channels
+- Wireless Encryption
 
-### 1.12 Virtualization
+---
 
-- Hypervisors
+## 1.12 Explain Virtualization Fundamentals
+
+- Server Virtualization
 - Virtual Machines
 - Containers
 - VRFs
 
-### 1.13 Switching
+---
+
+## 1.13 Describe Switching Concepts
 
 - MAC Learning
-- CAM Tables
-- Flooding
-- Forwarding
-- Aging
+- MAC Address Table
+- Frame Switching
+- Frame Flooding
+- MAC Aging
 
 ---
 
-## 2. Network Access (20%)
+# 2. Network Access (20%)
 
-- VLANs
-- Voice VLANs
+## 2.1 VLAN Configuration
+
+- VLAN Creation
 - Access Ports
-- Trunks
-- Native VLAN
-- 802.1Q
+- Voice VLANs
+- Default VLAN
 - Inter-VLAN Routing
-- CDP
-- LLDP
-- EtherChannel
+
+---
+
+## 2.2 Interswitch Connectivity
+
+- Trunk Ports
+- IEEE 802.1Q
+- Native VLAN
+
+---
+
+## 2.3 Layer 2 Discovery Protocols
+
+- Cisco Discovery Protocol (CDP)
+- Link Layer Discovery Protocol (LLDP)
+
+---
+
+## 2.4 EtherChannel
+
+- Layer 2 EtherChannel
+- Layer 3 EtherChannel
 - LACP
-- Rapid PVST+
+
+---
+
+## 2.5 Rapid PVST+
+
+- Root Bridge
+- Root Port
+- Designated Port
+- Alternate Port
+- Port Roles
+- Port States
 - PortFast
 - Root Guard
 - Loop Guard
 - BPDU Guard
 - BPDU Filter
-- Cisco Wireless Architecture
+
+---
+
+## 2.6 Cisco Wireless Architectures
+
+- Lightweight AP
+- Autonomous AP
+- Controller-Based Wireless
+
+---
+
+## 2.7 WLAN Infrastructure
+
 - Access Points
 - Wireless LAN Controllers
-- WLAN Configuration
-- SSH
+- Access Ports
+- Trunk Ports
+- Link Aggregation (LAG)
+
+---
+
+## 2.8 Device Management Access
+
+- Console
 - Telnet
+- SSH
+- HTTP
 - HTTPS
 - TACACS+
 - RADIUS
+- Cloud Management
 
 ---
 
-## 3. IP Connectivity (25%)
+## 2.9 Wireless LAN GUI Configuration
 
-- Routing Tables
+- WLAN Creation
+- Client Connectivity
+- Security Settings
+- QoS Profiles
+- Advanced Settings
+
+---
+
+# 3. IP Connectivity (25%)
+
+## 3.1 Routing Table Components
+
+- Route Codes
+- Prefixes
+- Network Masks
+- Next-Hop Addresses
 - Administrative Distance
 - Metrics
-- Longest Prefix Match
-- Static Routes
-- Default Routes
-- Floating Static Routes
-- IPv4 Routing
-- IPv6 Routing
-- OSPFv2
-- DR / BDR Elections
-- Neighbor Relationships
-- Router IDs
-- First Hop Redundancy Protocols
+- Gateway of Last Resort
 
 ---
 
-## 4. IP Services (10%)
+## 3.2 Router Forwarding Decisions
+
+- Longest Prefix Match
+- Administrative Distance
+- Routing Metrics
+
+---
+
+## 3.3 Static Routing
+
+- Network Routes
+- Default Routes
+- Host Routes
+- Floating Static Routes
+- IPv4
+- IPv6
+
+---
+
+## 3.4 Single-Area OSPFv2
+
+- Neighbor Adjacencies
+- Router ID
+- Point-to-Point Networks
+- Broadcast Networks
+- DR Election
+- BDR Election
+
+---
+
+## 3.5 First Hop Redundancy Protocols
+
+- Purpose
+- Operation
+- High Availability Concepts
+
+---
+
+# 4. IP Services (10%)
+
+## 4.1 Network Address Translation
 
 - Static NAT
 - Dynamic NAT
-- PAT
-- NTP
-- DHCP
-- DHCP Relay
-- DNS
-- SNMP
-- Syslog
-- QoS
-- SSH
+- NAT Pools
+
+---
+
+## 4.2 Network Time Protocol (NTP)
+
+- Client Mode
+- Server Mode
+
+---
+
+## 4.3 DHCP and DNS
+
+- DHCP Operation
+- DNS Operation
+
+---
+
+## 4.4 SNMP
+
+- Monitoring
+- Management
+
+---
+
+## 4.5 Syslog
+
+- Facilities
+- Severity Levels
+
+---
+
+## 4.6 DHCP Client and Relay
+
+- DHCP Client
+- DHCP Relay Agent
+
+---
+
+## 4.7 Quality of Service (QoS)
+
+- Classification
+- Marking
+- Queuing
+- Congestion
+- Policing
+- Shaping
+
+---
+
+## 4.8 Secure Remote Access
+
+- SSH Configuration
+- SSH Verification
+
+---
+
+## 4.9 File Transfer Services
+
 - TFTP
 - FTP
 
 ---
 
-## 5. Security Fundamentals (15%)
+# 5. Security Fundamentals (15%)
+
+## 5.1 Security Concepts
 
 - Threats
 - Vulnerabilities
 - Exploits
 - Mitigation
-- Physical Security
-- Password Policies
-- MFA
-- Certificates
-- Biometrics
-- VPNs
-- IPsec
-- ACLs
-- DHCP Snooping
-- Dynamic ARP Inspection
-- Port Security
-- AAA
-- WPA2
-- WPA3
-- Wireless Security
 
 ---
 
-## 6. Automation & Programmability (10%)
+## 5.2 Security Programs
 
-- Network Automation
-- Controller-Based Networking
+- User Awareness
+- Security Training
+- Physical Security
+
+---
+
+## 5.3 Device Access Control
+
+- Local Passwords
+- Secure Access
+
+---
+
+## 5.4 Password Policies
+
+- Password Complexity
+- Password Management
+- Multi-Factor Authentication
+- Certificates
+- Biometrics
+
+---
+
+## 5.5 VPN Technologies
+
+- Remote Access VPN
+- Site-to-Site VPN
+- IPsec
+
+---
+
+## 5.6 Access Control Lists (ACLs)
+
+- Standard ACLs
+- Extended ACLs
+- Verification
+
+---
+
+## 5.7 Layer 2 Security
+
+- DHCP Snooping
+- Dynamic ARP Inspection
+- Port Security
+
+---
+
+## 5.8 AAA
+
+- Authentication
+- Authorization
+- Accounting
+
+---
+
+## 5.9 Wireless Security
+
+- WPA
+- WPA2
+- WPA3
+
+---
+
+## 5.10 WLAN Configuration
+
+- WPA2-PSK Configuration
+- Verification
+
+---
+
+# 6. Automation and Programmability (10%)
+
+## 6.1 Network Automation
+
+- Benefits
+- Use Cases
+
+---
+
+## 6.2 Controller-Based Networking
+
+- Traditional Networks
 - SDN
-- Underlay
+- Controller-Based Networks
+
+---
+
+## 6.3 Software-Defined Architecture
+
 - Overlay
+- Underlay
 - Fabric
 - Control Plane
 - Data Plane
 - Northbound APIs
 - Southbound APIs
-- REST APIs
-- CRUD
+
+---
+
+## 6.4 AI and Machine Learning
+
+- Predictive AI
+- Generative AI
+- Network Operations
+
+---
+
+## 6.5 REST APIs
+
+- Authentication
+- CRUD Operations
 - HTTP Methods
 - JSON
-- AI in Networking
-- Machine Learning
+- XML
+
+---
+
+## 6.6 Configuration Management
+
 - Ansible
 - Terraform
 
 ---
 
-# Every Lesson Includes
+## 6.7 JSON
 
-Each chapter contains:
-
-- Plain-English explanations
-- Cisco CLI examples
-- Packet Tracer labs
-- Network diagrams
-- Binary walkthroughs
-- Troubleshooting scenarios
-- CCNA exam tips
-- Common mistakes
-- Memory aids
-- Practice questions
-- Lab challenges
-- Real-world examples
+- Objects
+- Arrays
+- Key-Value Pairs
+- JSON Syntax
 
 ---
 
 # Recommended Lab Software
 
 - Cisco Packet Tracer
-- GNS3
 - Cisco Modeling Labs (CML)
-- VirtualBox
+- GNS3
 - Wireshark
-
----
-
-# Recommended Study Resources
-
-### Cisco
-
-- Official Cert Guide (Vol. 1 & 2)
-
-### Free
-
-- Jeremy's IT Lab
-- Cisco Skills For All
-- Cisco Packet Tracer
+- VirtualBox
 
 ---
 
 # Study Tips
 
-- Build every topology yourself.
-- Practice subnetting daily.
-- Learn to read routing tables quickly.
-- Memorize common ports and protocols.
-- Use the CLI every day.
-- Review diagrams until you can redraw them from memory.
-- Troubleshoot labs instead of only reading.
+- Complete the lessons in numerical order.
+- Build every Packet Tracer lab yourself.
+- Practice subnetting regularly until it becomes second nature.
+- Learn to interpret routing tables without relying on memorization.
+- Practice using the Cisco CLI daily.
+- Review troubleshooting scenarios after each topic.
+- Complete the review questions before moving to the next lesson.
 
 ---
 
 # License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
