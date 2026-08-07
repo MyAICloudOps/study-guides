@@ -1,6 +1,7 @@
+```markdown
 # 🚀 Modern Cloud, DevOps & AI Engineer Roadmap
 
-> **A free, open-source collection of study guides documenting my journey to becoming a Cloud, DevOps, and AI Engineer—built on a strong foundation of Linux, Networking, and Python.**
+> **A free, open-source collection of study guides documenting my journey to becoming a Cloud, DevOps, and AI Engineer—built on a strong foundation of Networking, Linux, and Python.**
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-brightgreen)
@@ -23,119 +24,121 @@ Whether you're starting your IT career or transitioning into cloud technologies,
 
 # 🏗️ Why Start with the Fundamentals?
 
-Many certification roadmaps encourage students to jump directly into cloud platforms, Kubernetes, or AI.
+Many learning paths encourage students to jump directly into cloud platforms, Kubernetes, or AI.
 
 The problem is that these technologies all depend on three core disciplines:
 
-- 🐧 **Linux** – The operating system powering most servers, cloud platforms, and Kubernetes clusters.
-- 🌐 **Networking** – The foundation of all communication between devices, services, and applications.
-- 🐍 **Python** – The primary scripting language for automation, Infrastructure as Code, DevOps, and AI.
+- 🌐 **Networking** – Understanding how systems communicate is essential for cloud infrastructure, virtualization, containers, and security.
+- 🐧 **Linux** – The operating system that powers most servers, cloud platforms, and Kubernetes clusters.
+- 🐍 **Python** – The scripting language used for automation, Infrastructure as Code, DevOps, and AI.
 
-Without a solid understanding of these fundamentals, advanced technologies become much more difficult to learn and troubleshoot.
-
-This roadmap follows a **"Foundations First"** philosophy.
-
-Master the fundamentals first—everything else becomes easier.
+Master these fundamentals first, and every technology that follows becomes easier to understand.
 
 ---
 
-```markdown id="jlwmv2"
 # 🛣️ Certification Roadmap
 
-## Phase 1 — Foundational Disciplines
+## 📘 Phase 1 — Foundational Disciplines
 
-Every modern Cloud, DevOps, and AI Engineer should first master these three core disciplines.
+These certifications provide the core knowledge that every Cloud, DevOps, and AI Engineer should possess.
 
-| Order | Certification | Skill Area |
-|------:|---------------|------------|
-| **1** | Cisco Certified Network Associate (CCNA 200-301) | Networking |
-| **2** | Linux Foundation Certified System Administrator (LFCS) | Linux Administration |
-| **3** | OpenEDG Python Certified Associate Programmer (PCAP) | Python Programming |
+### 1️⃣ Cisco Certified Network Associate (CCNA 200-301)
 
-These three certifications provide the foundation upon which the rest of this roadmap is built.
+**Skill Area:** Networking
 
-- 🌐 **Networking (CCNA)** teaches how devices communicate, how routing and switching work, and how data flows across networks. These concepts are essential for cloud networking, Kubernetes, firewalls, VPNs, and troubleshooting.
-- 🐧 **Linux (LFCS)** builds the operating system skills needed to manage servers, containers, cloud virtual machines, and Kubernetes nodes.
-- 🐍 **Python (PCAP)** introduces the scripting and programming skills used to automate infrastructure, interact with APIs, and build cloud and DevOps workflows.
-
-Mastering these foundational disciplines first will make the remaining certifications significantly easier to understand and apply.
-```
-
+Learn routing, switching, TCP/IP, IPv4, IPv6, wireless networking, network security fundamentals, automation, and troubleshooting.
 
 ---
 
-## Phase 2 — Cloud Administration
+### 2️⃣ Linux Foundation Certified System Administrator (LFCS)
 
-Learn how to deploy, manage, and secure cloud infrastructure.
+**Skill Area:** Linux Administration
 
-| Order | Certification | Skill Area |
-|------:|---------------|------------|
-| **4** | Microsoft Azure Administrator (AZ-104) | Azure Administration |
+Develop the Linux skills required to manage servers, cloud virtual machines, containers, storage, networking, users, services, and automation.
 
 ---
 
-## Phase 3 — Modern DevOps
+### 3️⃣ OpenEDG Python Certified Associate Programmer (PCAP)
 
-Learn the tools used to build, deploy, and manage cloud-native applications.
+**Skill Area:** Python Programming
 
-| Order | Certification | Skill Area |
-|------:|---------------|------------|
-| **5** | GitHub Foundations | Git & Version Control |
-| **6** | Mirantis Certified Associate (MCA) *(formerly Docker Certified Associate)* | Containers |
-| **7** | Certified Kubernetes Administrator (CKA) | Kubernetes |
-| **8** | HashiCorp Terraform Associate | Infrastructure as Code |
+Learn Python fundamentals and develop scripting skills for automation, APIs, cloud management, and DevOps.
+
+---
+
+## ☁️ Phase 2 — Cloud Administration
+
+### 4️⃣ Microsoft Azure Administrator (AZ-104)
+
+**Skill Area:** Azure Administration
+
+Learn to deploy, manage, monitor, and secure Microsoft Azure resources including compute, networking, storage, identity, and governance.
+
+---
+
+## ⚙️ Phase 3 — Cloud-Native & DevOps
+
+### 5️⃣ GitHub Foundations
+
+**Skill Area:** Git & Version Control
+
+Learn Git, GitHub, branching strategies, collaboration workflows, and version control best practices.
+
+---
+
+### 6️⃣ Mirantis Certified Associate (MCA)
+
+**Skill Area:** Containers (Docker)
+
+Learn Docker images, containers, networking, storage, registries, and container best practices.
 
 > **Docker Certification Update**
 >
-> The original **Docker Certified Associate (DCA)** certification was transferred to **Mirantis** following Mirantis' acquisition of Docker Enterprise in 2019. The certification is now offered as the **Mirantis Certified Associate (MCA)**.
+> The original **Docker Certified Associate (DCA)** certification was transferred to **Mirantis** following Mirantis' acquisition of Docker Enterprise in 2019.
 >
-> Although the certification provider changed, Docker remains one of the most important technologies for Cloud Engineering, Kubernetes, and DevOps. This roadmap focuses on learning Docker itself, regardless of the certification provider.
+> Today, the certification is offered as the **Mirantis Certified Associate (MCA)**. Although the certification provider has changed, Docker remains one of the most important technologies in Cloud Engineering, Kubernetes, and DevOps.
 
 ---
 
-## Phase 4 — AI & DevOps Engineering
+### 7️⃣ Certified Kubernetes Administrator (CKA)
 
-Complete the roadmap with AI services and enterprise DevOps automation.
+**Skill Area:** Kubernetes
 
-| Order | Certification | Skill Area |
-|------:|---------------|------------|
-| **9** | Microsoft Azure AI Engineer Associate (AI-102) | AI Engineering |
-| **10** | Microsoft Azure DevOps Engineer Expert (AZ-400) | DevOps Automation |
+Learn Kubernetes architecture, scheduling, networking, storage, security, troubleshooting, and cluster administration.
+
+---
+
+### 8️⃣ HashiCorp Terraform Associate
+
+**Skill Area:** Infrastructure as Code
+
+Learn how to provision and manage cloud infrastructure using Terraform.
+
+---
+
+## 🤖 Phase 4 — AI & DevOps Engineering
+
+### 9️⃣ Microsoft Azure AI Engineer Associate (AI-102)
+
+**Skill Area:** AI Engineering
+
+Learn Azure AI Services, Cognitive Services, Generative AI, and intelligent application development.
+
+---
+
+### 🔟 Microsoft Azure DevOps Engineer Expert (AZ-400)
+
+**Skill Area:** DevOps Automation
+
+Learn CI/CD, Azure DevOps, GitHub Actions, monitoring, automation, Infrastructure as Code, and deployment strategies.
 
 ---
 
 # 📂 Repository Structure
 
-```text
-IT-Certification-Roadmap/
-│
-├── README.md
-├── LICENSE
-│
-├── LFCS/
-│
-├── CCNA/
-│
-├── PCAP/
-│
-├── AZ-104/
-│
-├── GitHub-Foundations/
-│
-├── Mirantis-MCA/
-│
-├── CKA/
-│
-├── Terraform/
-│
-├── AI-102/
-│
-└── AZ-400/
-```
+Each certification has its own directory containing:
 
-Each certification directory contains:
-
-- 📘 Study Guides
+- 📘 Study Guide
 - 🖥️ Hands-on Labs
 - 📊 Diagrams
 - 📝 Cheat Sheets
@@ -143,27 +146,39 @@ Each certification directory contains:
 - 🧠 Flashcards
 - 📚 Additional Resources
 
+Repository layout:
+
+- 📁 LFCS
+- 📁 CCNA
+- 📁 PCAP
+- 📁 AZ-104
+- 📁 GitHub-Foundations
+- 📁 Mirantis-MCA
+- 📁 CKA
+- 📁 Terraform
+- 📁 AI-102
+- 📁 AZ-400
+
 ---
 
 # 🎯 Skills You'll Develop
 
-By following this roadmap, you'll gain practical experience with:
+By completing this roadmap you'll gain practical experience with:
 
-- Linux Administration
-- Enterprise Networking
-- Python Programming
-- Microsoft Azure
-- Git & GitHub
-- Docker Containers
-- Kubernetes
-- Infrastructure as Code (Terraform)
-- Cloud Infrastructure
-- CI/CD Pipelines
-- DevOps Automation
-- Artificial Intelligence
-- Monitoring & Logging
-- Troubleshooting
-- Infrastructure Design
+- 🌐 Enterprise Networking
+- 🐧 Linux Administration
+- 🐍 Python Programming
+- ☁️ Microsoft Azure
+- 🌿 Git & GitHub
+- 📦 Docker Containers
+- ☸️ Kubernetes
+- 🏗️ Infrastructure as Code
+- ⚙️ DevOps Automation
+- 🔄 CI/CD Pipelines
+- 🤖 Artificial Intelligence
+- 📈 Monitoring & Observability
+- 🔧 Troubleshooting
+- 🏛️ Infrastructure Design
 
 ---
 
@@ -173,33 +188,31 @@ Every study guide emphasizes practical experience.
 
 You'll find:
 
-- Step-by-step labs
-- Configuration examples
-- Real-world scenarios
-- Architecture diagrams
-- Verification commands
-- Troubleshooting exercises
-- Best practices
-- Exam preparation tips
+- 💻 Step-by-step labs
+- 📝 Configuration examples
+- 🌍 Real-world scenarios
+- 📊 Architecture diagrams
+- ✅ Verification commands
+- 🔧 Troubleshooting exercises
+- ⭐ Best practices
+- 🎯 Exam preparation tips
 
-The goal is not just to earn certifications, but to build the skills needed to design, deploy, automate, and troubleshoot modern IT infrastructure.
+The goal is not just to earn certifications but to develop the skills needed to build, manage, automate, and troubleshoot modern infrastructure.
 
 ---
 
-# 📈 Progress Tracker
+# 📈 Progress
 
-| Certification | Status |
-|---------------|:------:|
-| LFCS | 🚧 Not Started |
-| CCNA | 🚧 In Progress |
-| PCAP | 🚧 Not Started |
-| AZ-104 | 🚧 Not Started |
-| GitHub Foundations | 🚧 Not Started |
-| Mirantis MCA | 🚧 Not Started |
-| CKA | 🚧 Not Started |
-| Terraform Associate | 🚧 Not Started |
-| AI-102 | 🚧 Not Started |
-| AZ-400 | 🚧 Not Started |
+- 🚧 CCNA (200-301)
+- ⏳ LFCS
+- ⏳ PCAP
+- ⏳ AZ-104
+- ⏳ GitHub Foundations
+- ⏳ Mirantis MCA
+- ⏳ CKA
+- ⏳ Terraform Associate
+- ⏳ AI-102
+- ⏳ AZ-400
 
 ---
 
@@ -207,7 +220,7 @@ The goal is not just to earn certifications, but to build the skills needed to d
 
 Contributions are welcome!
 
-If you discover an error, have suggestions for improvement, or would like to contribute additional labs or study materials, feel free to:
+If you find an error, have suggestions for improvement, or would like to contribute additional labs, diagrams, or study materials, feel free to:
 
 - Open an Issue
 - Submit a Pull Request
@@ -218,7 +231,7 @@ If you discover an error, have suggestions for improvement, or would like to con
 
 This project is licensed under the **MIT License**.
 
-See the `LICENSE` file for details.
+See the **LICENSE** file for details.
 
 ---
 
@@ -235,8 +248,9 @@ If these study guides help you:
 
 # 🎯 Mission
 
-The mission of this repository is to provide a high-quality, freely available learning resource that helps aspiring IT professionals build lasting technical knowledge.
+The mission of this repository is to provide high-quality, freely available study guides that emphasize understanding over memorization.
 
-By mastering **Linux**, **Networking**, and **Python** before moving into cloud, containers, Kubernetes, Infrastructure as Code, AI, and DevOps, you'll develop a stronger understanding of modern infrastructure and be better prepared for both certification exams and real-world engineering roles.
+By mastering **Networking**, **Linux**, and **Python** before moving into cloud platforms, containers, Kubernetes, Infrastructure as Code, AI, and DevOps, you'll build a stronger foundation for both certification success and real-world engineering.
 
-**Build the foundation. Master the cloud. Automate everything.**
+## 🚀 Build the Foundation. Master the Cloud. Automate Everything.
+```
