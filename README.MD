@@ -39,17 +39,28 @@ Master the fundamentals first—everything else becomes easier.
 
 ---
 
+```markdown id="jlwmv2"
 # 🛣️ Certification Roadmap
 
 ## Phase 1 — Foundational Disciplines
 
-These certifications provide the knowledge that every Cloud, DevOps, and AI Engineer should have.
+Every modern Cloud, DevOps, and AI Engineer should first master these three core disciplines.
 
 | Order | Certification | Skill Area |
 |------:|---------------|------------|
-| **1** | Linux Foundation Certified System Administrator (LFCS) | Linux Administration |
-| **2** | Cisco Certified Network Associate (CCNA 200-301) | Networking |
+| **1** | Cisco Certified Network Associate (CCNA 200-301) | Networking |
+| **2** | Linux Foundation Certified System Administrator (LFCS) | Linux Administration |
 | **3** | OpenEDG Python Certified Associate Programmer (PCAP) | Python Programming |
+
+These three certifications provide the foundation upon which the rest of this roadmap is built.
+
+- 🌐 **Networking (CCNA)** teaches how devices communicate, how routing and switching work, and how data flows across networks. These concepts are essential for cloud networking, Kubernetes, firewalls, VPNs, and troubleshooting.
+- 🐧 **Linux (LFCS)** builds the operating system skills needed to manage servers, containers, cloud virtual machines, and Kubernetes nodes.
+- 🐍 **Python (PCAP)** introduces the scripting and programming skills used to automate infrastructure, interact with APIs, and build cloud and DevOps workflows.
+
+Mastering these foundational disciplines first will make the remaining certifications significantly easier to understand and apply.
+```
+
 
 ---
 
