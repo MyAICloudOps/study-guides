@@ -1,355 +1,271 @@
 # Cisco CCNA (200-301 v1.1) Complete Study Guide
 
-> **A comprehensive, exam-focused study guide for the Cisco Certified Network Associate (CCNA) 200-301 v1.1 certification.**
->
-> Designed for beginners and experienced IT professionals alike, this guide explains networking concepts from the ground up using diagrams, labs, real-world examples, troubleshooting exercises, and exam-focused explanations.
+<p align="center">
+
+![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/CCNA-Study-Guide)
+![GitHub Repo stars](https://img.shields.io/github/stars/YOUR_USERNAME/CCNA-Study-Guide?style=social)
+![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/CCNA-Study-Guide?style=social)
+![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/CCNA-Study-Guide)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![CCNA](https://img.shields.io/badge/CCNA-200--301%20v1.1-red)
+![Markdown](https://img.shields.io/badge/Built%20With-Markdown-success)
+![Status](https://img.shields.io/badge/Status-In%20Progress-brightgreen)
+
+</p>
 
 ---
 
-# 📘 About This Guide
+# 📖 The Complete CCNA 200-301 Study Guide
 
-The **Cisco Certified Network Associate (CCNA)** is one of the most recognized networking certifications in the IT industry and serves as the foundation for careers in:
+A comprehensive **open-source** study guide for the Cisco **CCNA 200-301 v1.1** certification.
 
-- Network Engineering
-- Systems Administration
-- Cloud Computing
-- Cybersecurity
-- DevOps
-- Network Automation
-- Infrastructure Engineering
-
-Unlike many certification books that focus primarily on memorization, this guide is designed to teach **how networking actually works**.
-
-Every topic begins with simple explanations before progressing into the technical details expected on the CCNA exam.
-
-By the end of this guide, you should understand not only **what** to configure, but also **why** it works.
+Unlike traditional certification books, this project teaches the **theory behind networking** before introducing Cisco commands, helping you develop the understanding needed to pass the exam and succeed in real-world networking.
 
 ---
 
-# 🎯 Exam Information
+## ⭐ Features
 
-| Item | Details |
-|------|---------|
-| Certification | Cisco Certified Network Associate (CCNA) |
-| Exam Code | 200-301 v1.1 |
-| Exam Time | 120 Minutes |
-| Question Types | Multiple Choice, Drag & Drop, Simlets, Configuration, Scenario-Based |
-| Vendor | Cisco Systems |
+- Complete CCNA Exam Coverage
+- Beginner Friendly
+- Deep Technical Explanations
+- High Quality Diagrams
+- Binary Walkthroughs
+- Packet Flow Illustrations
+- Troubleshooting Sections
+- Cisco IOS Configuration Examples
+- Verification Commands
+- Hands-on Packet Tracer Labs
+- Practice Questions
+- Exam Tips
+- Cheat Sheets
+- Flash Cards
+- Interview Questions
 
 ---
 
-# 📚 Exam Domains
+# 📚 Table of Contents
+
+- [Exam Overview](#-exam-overview)
+- [Study Roadmap](#-study-roadmap)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+- [Study Tips](#-study-tips)
+- [Resources](#-resources)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+# 🎯 Exam Overview
 
 | Domain | Weight |
 |---------|-------:|
-| Network Fundamentals | **20%** |
-| Network Access | **20%** |
-| IP Connectivity | **25%** |
-| IP Services | **10%** |
-| Security Fundamentals | **15%** |
-| Automation & Programmability | **10%** |
+| Network Fundamentals | 20% |
+| Network Access | 20% |
+| IP Connectivity | 25% |
+| IP Services | 10% |
+| Security Fundamentals | 15% |
+| Automation & Programmability | 10% |
 
 ---
 
-# 🎓 Who This Guide Is For
+# 🛣 Study Roadmap
 
-This guide is intended for:
-
-- Beginners with little or no networking experience
-- IT Support Professionals
-- Help Desk Technicians
-- Desktop Support Engineers
-- Systems Administrators
-- Cloud Engineers
-- Cybersecurity Students
-- DevOps Engineers
-- Anyone preparing for the CCNA certification
-
-No prior Cisco experience is required.
-
----
-
-# 📖 What Makes This Guide Different?
-
-Instead of simply presenting Cisco commands, this guide focuses on helping you truly understand networking concepts.
-
-Each lesson includes:
-
-- ✅ Plain-English explanations
-- ✅ Detailed technical explanations
-- ✅ Network diagrams
-- ✅ Binary walkthroughs
-- ✅ Packet flow illustrations
-- ✅ Configuration examples
-- ✅ Verification commands
-- ✅ Troubleshooting exercises
-- ✅ CCNA exam tips
-- ✅ Practice questions
-- ✅ Hands-on labs
-- ✅ Real-world scenarios
-
----
-
-# 🗂 Repository Structure
-
-```text
-CCNA-Study-Guide/
-│
-├── README.md
-├── LICENSE
-│
-├── 01-Network-Fundamentals/
-│   ├── 01-Routers.md
-│   ├── 02-Layer2-Switches.md
-│   ├── 03-Layer3-Switches.md
-│   ├── 04-Firewalls.md
-│   ├── 05-Access-Points.md
-│   ├── 06-Network-Topologies.md
-│   ├── 07-Cabling.md
-│   ├── 08-TCP-vs-UDP.md
-│   ├── 09-IPv4.md
-│   ├── 10-IPv6.md
-│   ├── 11-Wireless.md
-│   ├── 12-Virtualization.md
-│   └── 13-Switching.md
-│
-├── 02-Network-Access/
-│   ├── VLANs.md
-│   ├── Trunking.md
-│   ├── EtherChannel.md
-│   ├── STP.md
-│   ├── Wireless.md
-│   └── Device-Management.md
-│
-├── 03-IP-Connectivity/
-│   ├── Routing-Tables.md
-│   ├── Static-Routes.md
-│   ├── OSPF.md
-│   ├── Longest-Prefix-Match.md
-│   └── FHRP.md
-│
-├── 04-IP-Services/
-│   ├── NAT.md
-│   ├── DHCP.md
-│   ├── DNS.md
-│   ├── NTP.md
-│   ├── Syslog.md
-│   ├── SNMP.md
-│   ├── QoS.md
-│   └── SSH.md
-│
-├── 05-Security-Fundamentals/
-│   ├── Threats.md
-│   ├── AAA.md
-│   ├── ACLs.md
-│   ├── Port-Security.md
-│   ├── VPN.md
-│   ├── WPA2-WPA3.md
-│   └── DHCP-Snooping.md
-│
-├── 06-Automation/
-│   ├── SDN.md
-│   ├── REST-API.md
-│   ├── JSON.md
-│   ├── Ansible.md
-│   ├── Terraform.md
-│   └── AI-Networking.md
-│
-├── Labs/
-│   ├── Packet-Tracer/
-│   ├── GNS3/
-│   └── Solutions/
-│
-├── Images/
-│
-├── Cheat-Sheets/
-│
-├── Flashcards/
-│
-└── Practice-Exams/
-```
-
----
-
-# 📑 Study Roadmap
-
-## Part 1 — Network Fundamentals (20%)
-
-Learn:
+## Part 1 — Network Fundamentals
 
 - Routers
-- Layer 2 Switching
-- Layer 3 Switching
+- Switches
 - Firewalls
-- Wireless Access Points
-- Controllers
-- End Devices
-- Servers
-- Power over Ethernet (PoE)
-- Network Topologies
-- Cabling
-- TCP vs UDP
+- Wireless
 - IPv4
 - IPv6
-- Wireless Networking
+- TCP vs UDP
 - Virtualization
-- Switching Concepts
+- Ethernet
+- Cabling
+- Switching
+
+➡️ [Start Here](01-Network-Fundamentals/)
 
 ---
 
-## Part 2 — Network Access (20%)
-
-Learn:
+## Part 2 — Network Access
 
 - VLANs
 - Trunking
-- Inter-VLAN Routing
 - EtherChannel
-- CDP
-- LLDP
-- Rapid PVST+
-- Wireless Architectures
-- Device Management
+- STP
+- Wireless LANs
+
+➡️ Continue Here
 
 ---
 
-## Part 3 — IP Connectivity (25%)
+## Part 3 — IP Connectivity
 
-Learn:
-
-- Routing Tables
+- Routing
 - Static Routes
-- Floating Static Routes
 - OSPF
-- Administrative Distance
-- Longest Prefix Match
-- First Hop Redundancy Protocols
+- Routing Tables
+
+➡️ Continue Here
 
 ---
 
-## Part 4 — IP Services (10%)
-
-Learn:
+## Part 4 — IP Services
 
 - NAT
 - DHCP
 - DNS
 - NTP
-- Syslog
-- SNMP
-- QoS
 - SSH
-- FTP
-- TFTP
+- QoS
+
+➡️ Continue Here
 
 ---
 
-## Part 5 — Security Fundamentals (15%)
+## Part 5 — Security Fundamentals
 
-Learn:
-
-- Security Concepts
-- AAA
-- VPNs
 - ACLs
 - Port Security
-- DHCP Snooping
-- Dynamic ARP Inspection
-- WPA2
+- AAA
+- VPNs
 - WPA3
+
+➡️ Continue Here
 
 ---
 
-## Part 6 — Automation & Programmability (10%)
+## Part 6 — Automation
 
-Learn:
-
-- Software Defined Networking (SDN)
-- Controller-Based Networking
-- REST APIs
+- SDN
+- APIs
 - JSON
 - Ansible
 - Terraform
-- AI in Networking
-- Machine Learning
+- AI
+
+➡️ Continue Here
 
 ---
 
-# 💻 Hands-On Labs
+# 📁 Repository Structure
 
-Every major topic includes practical labs using:
+```text
+CCNA-Study-Guide
+│
+├── README.md
+├── LICENSE
+├── Images
+├── Labs
+├── Cheat-Sheets
+├── Flashcards
+├── Practice-Exams
+│
+├── 01-Network-Fundamentals
+├── 02-Network-Access
+├── 03-IP-Connectivity
+├── 04-IP-Services
+├── 05-Security-Fundamentals
+└── 06-Automation
+```
+
+---
+
+# 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/CCNA-Study-Guide.git
+```
+
+or simply browse the lessons directly on GitHub.
+
+---
+
+# 💡 Study Tips
+
+✅ Read every lesson.
+
+✅ Build every lab.
+
+✅ Break the lab.
+
+✅ Fix the lab.
+
+✅ Repeat.
+
+Networking is learned by doing.
+
+---
+
+# 📊 Progress Tracker
+
+| Section | Status |
+|----------|--------|
+| Network Fundamentals | 🚧 |
+| Network Access | 🚧 |
+| IP Connectivity | 🚧 |
+| IP Services | 🚧 |
+| Security Fundamentals | 🚧 |
+| Automation | 🚧 |
+| Labs | 🚧 |
+| Practice Exams | 🚧 |
+
+---
+
+# 📖 Recommended Resources
 
 - Cisco Packet Tracer
-- Cisco Modeling Labs (CML)
-- GNS3 *(optional)*
-- EVE-NG *(optional)*
-
-Each lab contains:
-
-- Objectives
-- Network topology
-- Step-by-step configuration
-- Verification
-- Troubleshooting
-- Challenge exercises
-
----
-
-# 🧠 Exam Tips
-
-Throughout the guide you'll find highlighted sections such as:
-
-> **💡 CCNA Exam Tip**
->
-> Cisco often tests your understanding of **why** a technology behaves the way it does rather than asking you to memorize commands. Learn the concepts first, then the syntax.
-
----
-
-# 📈 Recommended Study Method
-
-For each lesson:
-
-1. Read the lesson.
-2. Study the diagrams.
-3. Build the lab.
-4. Configure the devices manually.
-5. Verify your work.
-6. Troubleshoot intentional errors.
-7. Complete the review questions.
-8. Move to the next lesson.
-
-Consistency beats cramming.
+- Cisco Modeling Labs
+- Wireshark
+- Cisco Documentation
+- RFC Documentation
 
 ---
 
 # 🤝 Contributing
 
+Found a mistake?
+
+Want to improve a lesson?
+
+Open an Issue or submit a Pull Request.
+
 Contributions are welcome!
 
-If you find an error, have an improvement, or want to add labs or diagrams, feel free to open an issue or submit a pull request.
+---
+
+# ⭐ Support the Project
+
+If this guide helped you:
+
+⭐ Star the repository
+
+🍴 Fork it
+
+📢 Share it with others studying for the CCNA
 
 ---
 
 # 📄 License
 
-This project is licensed under the **MIT License**.
+Released under the MIT License.
 
 ---
 
-# ⚠️ Disclaimer
+# ⚠ Disclaimer
 
-Cisco®, CCNA®, and related trademarks are the property of Cisco Systems, Inc.
+Cisco®, CCNA®, and Cisco IOS® are registered trademarks of Cisco Systems, Inc.
 
-This repository is an independent educational resource and is **not affiliated with, endorsed by, or sponsored by Cisco Systems**.
+This repository is an independent educational resource and is not affiliated with or endorsed by Cisco Systems.
 
 ---
 
-# 🚀 Let's Get Started
+# 🎯 Begin Your Journey
 
-Start with:
+## ➜ [Start Lesson 1 — Routers](01-Network-Fundamentals/01-Routers.md)
 
-**📁 `01-Network-Fundamentals/01-Routers.md`**
-
-Build your knowledge one concept at a time, practice every lab, and focus on understanding the "why" behind each technology.
-
-**Good luck on your CCNA journey!**
+Happy Studying! 🚀
