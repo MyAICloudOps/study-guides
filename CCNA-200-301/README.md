@@ -1,596 +1,190 @@
-# Cisco CCNA (200-301 v1.1) Complete Study Guide
+# 🌐 CCNA 200-301 Study Guide
 
-![Cisco](https://img.shields.io/badge/Cisco-CCNA-blue)
-![Exam](https://img.shields.io/badge/Exam-200--301_v1.1-success)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Markdown](https://img.shields.io/badge/Built%20With-Markdown-informational)
-
-A comprehensive, exam-focused study guide covering every objective in the **Cisco Certified Network Associate (CCNA) 200-301 v1.1** certification exam.
-
-This repository is designed to teach the concepts required to pass the CCNA exam using detailed explanations, diagrams, CLI examples, Packet Tracer labs, troubleshooting scenarios, and review questions.
+*Structured around your outline below. Each ☑️ module becomes its own chapter as we build them — chapters already written are linked. Unlinked modules are next up.*
 
 ---
 
-# About This Repository
+## 🎓 How This Guide Works
 
-This study guide closely follows the official **Cisco CCNA 200-301 v1.1** exam blueprint.
-
-Each lesson is written in beginner-friendly language while providing the technical depth expected on the certification exam.
-
-Every chapter includes:
-
-- 📖 Detailed explanations
-- 🖼️ Network diagrams
-- 💻 Cisco IOS CLI examples
-- 🧪 Packet Tracer labs
-- 🔍 Troubleshooting exercises
-- 💡 CCNA exam tips
-- ⚠️ Common exam mistakes
-- ❓ Review questions
+- Each **Part** below matches an exam domain and its official weight.
+- Each **Module** will become a chapter with learning objectives, hands-on Packet Tracer activities, and a quick check for understanding — same format as the chapters already built.
+- ✅ = chapter written and linked. ⬜ = not yet written.
 
 ---
 
-# Exam Information
+## 📗 Part 1 – Network Fundamentals (20%)
 
-| Item | Details |
-|------|---------|
-| Certification | Cisco Certified Network Associate (CCNA) |
-| Exam Code | 200-301 |
-| Version | v1.1 |
-| Exam Time | 120 Minutes |
-| Questions | Approximately 90–100 |
-| Question Types | Multiple Choice, Multiple Answer, Drag-and-Drop, CLI Simulations, Simlets |
+### Module 1 – Network Components
+- What is a network?
+- LAN vs WAN
+- Internet, Intranet, Extranet
+- Network topologies (physical vs logical, client-server vs peer-to-peer)
+- Network devices:
+  - ✅ [1.1.a — Routers](./CCNA_Chapter_1.1a_Routers.md)
+  - ✅ [1.1.b — Layer 2 and Layer 3 Switches](./CCNA_Chapter_1.1b_Switches.md)
+  - ⬜ 1.1.c — Access Points
+  - ⬜ 1.1.d — Firewalls
+  - ⬜ 1.1.e — Wireless LAN Controllers
+  - ⬜ 1.1.f — Load Balancers
+- ⬜ Network media (copper, fiber, wireless)
 
----
+### Module 2 – Network Models
+- ⬜ OSI Model (purpose, seven layers, functions of each layer)
+- ⬜ Encapsulation / decapsulation, PDUs
+- ⬜ TCP/IP Model (four layers, comparison to OSI)
 
-# Exam Domains
+### Module 3 – Ethernet Fundamentals
+- ⬜ Ethernet history, MAC addresses, frames
+- ⬜ Collision domains, broadcast domains
+- ⬜ Duplex, speed negotiation, Auto-MDIX
 
-| Domain | Weight |
-|---------|-------:|
-| 1. Network Fundamentals | 20% |
-| 2. Network Access | 20% |
-| 3. IP Connectivity | 25% |
-| 4. IP Services | 10% |
-| 5. Security Fundamentals | 15% |
-| 6. Automation and Programmability | 10% |
+### Module 4 – IPv4 Addressing
+- ⬜ Binary numbers, decimal conversion
+- ⬜ IP address structure (network vs host portion)
+- ⬜ Classes (historical), private/public addresses, APIPA, loopback, multicast, broadcast, network ID
 
----
+### Module 5 – Subnetting
+- ⬜ CIDR, prefix notation, wildcard masks
+- ⬜ VLSM, network/host calculations, route summarization, practice subnetting
 
-# Repository Structure
+### Module 6 – IPv6
+- ⬜ Why IPv6, structure, hexadecimal, prefix length
+- ⬜ Link-local, global unicast, unique local, multicast, anycast
+- ⬜ SLAAC, EUI-64, Neighbor Discovery
 
-```
-CCNA-200-301/
-│
-├── README.md
-├── LICENSE
-│
-├── 01-Network-Fundamentals/
-├── 02-Network-Access/
-├── 03-IP-Connectivity/
-├── 04-IP-Services/
-├── 05-Security-Fundamentals/
-└── 06-Automation-and-Programmability/
-```
-
----
-
-# 1. Network Fundamentals (20%)
-
-## 1.1 Explain the Role and Function of Network Components
-
-- Routers
-- Layer 2 Switches
-- Layer 3 Switches
-- Next-Generation Firewalls
-- Intrusion Prevention Systems (IPS)
-- Wireless Access Points
-- Wireless LAN Controllers
-- Endpoints
-- Servers
-- Power over Ethernet (PoE)
+### Module 7 – Cabling
+- ⬜ UTP categories, fiber types, connectors
+- ⬜ Straight-through, crossover, console cable, SFP modules
 
 ---
 
-## 1.2 Describe Network Topology Architectures
+## 📘 Part 2 – Network Access (20%)
 
-- Two-Tier
-- Three-Tier
-- Spine-Leaf
-- WAN
-- SOHO
-- On-Premises
-- Cloud
+### Module 8 – Switching Fundamentals
+- ⬜ Switch operation, CAM table, frame forwarding, MAC learning, flooding, unknown unicast *(builds on 1.1.b)*
 
----
+### Module 9 – VLANs
+- ⬜ Purpose, default/native/voice/data VLANs
+- ⬜ VLAN configuration and troubleshooting
 
-## 1.3 Compare Physical Interfaces and Cabling Types
+### Module 10 – Trunking
+- ⬜ 802.1Q, native VLAN, allowed VLANs, tagging
+- ⬜ Trunk negotiation, verification commands
 
-- Copper Ethernet
-- Single-Mode Fiber
-- Multimode Fiber
-- Shared Ethernet Media
-- Point-to-Point Links
+### Module 11 – Inter-VLAN Routing
+- ⬜ Router-on-a-stick, Layer 3 switch, SVIs
+- ⬜ Configuration and troubleshooting
 
----
+### Module 12 – Spanning Tree Protocol
+- ⬜ Layer 2 loops, STP operation
+- ⬜ Root bridge, root port, designated port, blocking states
+- ⬜ Rapid STP, PortFast, BPDU Guard, Root Guard
 
-## 1.4 Identify Interface and Cable Issues
+### Module 13 – EtherChannel
+- ⬜ Purpose, static, PAgP, LACP
+- ⬜ Configuration and verification
 
-- Collisions
-- CRC Errors
-- Duplex Mismatch
-- Speed Mismatch
-- Runts
-- Giants
-
----
-
-## 1.5 Compare TCP and UDP
-
-- TCP
-- UDP
-- Reliability
-- Connection-Oriented vs Connectionless
-- Common Port Numbers
-- Header Comparison
+### Module 14 – Wireless Fundamentals
+- ⬜ Wireless standards, SSIDs, channels, interference, roaming
+- ⬜ WPA2, WPA3, authentication, wireless architectures
 
 ---
 
-## 1.6 Configure and Verify IPv4 Addressing and Subnetting
+## 📙 Part 3 – IP Connectivity (25%)
 
-- Binary
-- CIDR
-- Subnetting
-- VLSM
-- Route Summarization
+### Module 15 – Routing Fundamentals
+- ⬜ Static routes, default routes, administrative distance
+- ⬜ Routing tables, longest prefix match *(builds on 1.1.a)*
 
----
+### Module 16 – OSPFv2
+- ⬜ Areas, router IDs, neighbor relationships, hello packets
+- ⬜ DR/BDR, route calculation, single-area OSPF, verification
 
-## 1.7 Describe Private IPv4 Addressing
-
-- RFC1918
-- Public vs Private Addresses
-- NAT Overview
+### Module 17 – First Hop Redundancy
+- ⬜ HSRP, VRRP, GLBP
+- ⬜ Election process, failover
 
 ---
 
-## 1.8 Configure and Verify IPv6 Addressing
+## 📕 Part 4 – IP Services (10%)
 
-- IPv6 Format
-- Prefix Lengths
-- Address Compression
-- Address Expansion
+### Module 18 – DHCP
+- ⬜ DORA process, relay agents, pools, exclusions
+- ⬜ Configuration and troubleshooting
 
----
+### Module 19 – DNS
+- ⬜ Name resolution, recursive lookup, records, forward/reverse lookup
 
-## 1.9 Describe IPv6 Address Types
+### Module 20 – NAT
+- ⬜ Static NAT, dynamic NAT, PAT/overload
+- ⬜ Configuration and verification
 
-- Global Unicast
-- Unique Local
-- Link Local
-- Anycast
-- Multicast
-- Modified EUI-64
+### Module 21 – NTP
+- ⬜ Time synchronization, stratum, client/server
 
----
+### Module 22 – SNMP
+- ⬜ Monitoring, communities, versions, traps
 
-## 1.10 Verify IP Parameters for Client Operating Systems
+### Module 23 – Syslog
+- ⬜ Logging levels, remote logging, severity
 
-- Windows
-- Linux
-- macOS
-
----
-
-## 1.11 Describe Wireless Principles
-
-- RF
-- SSID
-- Nonoverlapping Wi-Fi Channels
-- Wireless Encryption
+### Module 24 – QoS
+- ⬜ Congestion, classification, marking, queuing, trust boundaries
 
 ---
 
-## 1.12 Explain Virtualization Fundamentals
+## 📔 Part 5 – Security Fundamentals (15%)
 
-- Server Virtualization
-- Virtual Machines
-- Containers
-- VRFs
+### Module 25 – Security Concepts
+- ⬜ CIA triad, AAA (authentication, authorization, accounting)
 
----
+### Module 26 – Device Security
+- ⬜ Secure passwords, SSH, disable Telnet, local users, login banners, password encryption
 
-## 1.13 Describe Switching Concepts
+### Module 27 – Layer 2 Security
+- ⬜ Port Security, Sticky MAC
+- ⬜ DHCP Snooping, Dynamic ARP Inspection, IP Source Guard
 
-- MAC Learning
-- MAC Address Table
-- Frame Switching
-- Frame Flooding
-- MAC Aging
+### Module 28 – ACLs
+- ⬜ Standard vs extended, numbered vs named, placement, troubleshooting
 
----
-
-# 2. Network Access (20%)
-
-## 2.1 VLAN Configuration
-
-- VLAN Creation
-- Access Ports
-- Voice VLANs
-- Default VLAN
-- Inter-VLAN Routing
+### Module 29 – VPN Concepts
+- ⬜ IPSec, site-to-site, remote access, GRE overview
 
 ---
 
-## 2.2 Interswitch Connectivity
+## 📓 Part 6 – Automation and Programmability (10%)
 
-- Trunk Ports
-- IEEE 802.1Q
-- Native VLAN
+### Module 30 – Modern Networks
+- ⬜ Traditional networking, controller-based networking, SDN, intent-based networking
 
----
+### Module 31 – APIs
+- ⬜ REST, RESTCONF, JSON, XML, HTTP methods
 
-## 2.3 Layer 2 Discovery Protocols
+### Module 32 – Configuration Management
+- ⬜ Puppet, Chef, Ansible, Terraform overview
 
-- Cisco Discovery Protocol (CDP)
-- Link Layer Discovery Protocol (LLDP)
+### Module 33 – Cisco DNA Center
+- ⬜ Purpose, architecture, provisioning, assurance, policy
 
----
+### Module 34 – AI and Machine Learning in Networking
+- ⬜ AI-assisted operations, predictive analytics, telemetry, automation use cases
 
-## 2.4 EtherChannel
-
-- Layer 2 EtherChannel
-- Layer 3 EtherChannel
-- LACP
-
----
-
-## 2.5 Rapid PVST+
-
-- Root Bridge
-- Root Port
-- Designated Port
-- Alternate Port
-- Port Roles
-- Port States
-- PortFast
-- Root Guard
-- Loop Guard
-- BPDU Guard
-- BPDU Filter
+### Module 35 – Virtualization
+- ⬜ Virtual machines, containers, virtual networking, hypervisors
 
 ---
 
-## 2.6 Cisco Wireless Architectures
+## 🗓️ Suggested Pacing
 
-- Lightweight AP
-- Autonomous AP
-- Controller-Based Wireless
-
----
-
-## 2.7 WLAN Infrastructure
-
-- Access Points
-- Wireless LAN Controllers
-- Access Ports
-- Trunk Ports
-- Link Aggregation (LAG)
+| Week(s) | Part | Modules |
+|---|---|---|
+| 1–2 | 📗 Network Fundamentals | 1–7 |
+| 3–4 | 📘 Network Access | 8–14 |
+| 5–6 | 📙 IP Connectivity | 15–17 |
+| 7 | 📕 IP Services + 📔 Security Fundamentals | 18–29 |
+| 8 | 📓 Automation & Programmability + full review, practice exams | 30–35 |
 
 ---
 
-## 2.8 Device Management Access
-
-- Console
-- Telnet
-- SSH
-- HTTP
-- HTTPS
-- TACACS+
-- RADIUS
-- Cloud Management
-
----
-
-## 2.9 Wireless LAN GUI Configuration
-
-- WLAN Creation
-- Client Connectivity
-- Security Settings
-- QoS Profiles
-- Advanced Settings
-
----
-
-# 3. IP Connectivity (25%)
-
-## 3.1 Routing Table Components
-
-- Route Codes
-- Prefixes
-- Network Masks
-- Next-Hop Addresses
-- Administrative Distance
-- Metrics
-- Gateway of Last Resort
-
----
-
-## 3.2 Router Forwarding Decisions
-
-- Longest Prefix Match
-- Administrative Distance
-- Routing Metrics
-
----
-
-## 3.3 Static Routing
-
-- Network Routes
-- Default Routes
-- Host Routes
-- Floating Static Routes
-- IPv4
-- IPv6
-
----
-
-## 3.4 Single-Area OSPFv2
-
-- Neighbor Adjacencies
-- Router ID
-- Point-to-Point Networks
-- Broadcast Networks
-- DR Election
-- BDR Election
-
----
-
-## 3.5 First Hop Redundancy Protocols
-
-- Purpose
-- Operation
-- High Availability Concepts
-
----
-
-# 4. IP Services (10%)
-
-## 4.1 Network Address Translation
-
-- Static NAT
-- Dynamic NAT
-- NAT Pools
-
----
-
-## 4.2 Network Time Protocol (NTP)
-
-- Client Mode
-- Server Mode
-
----
-
-## 4.3 DHCP and DNS
-
-- DHCP Operation
-- DNS Operation
-
----
-
-## 4.4 SNMP
-
-- Monitoring
-- Management
-
----
-
-## 4.5 Syslog
-
-- Facilities
-- Severity Levels
-
----
-
-## 4.6 DHCP Client and Relay
-
-- DHCP Client
-- DHCP Relay Agent
-
----
-
-## 4.7 Quality of Service (QoS)
-
-- Classification
-- Marking
-- Queuing
-- Congestion
-- Policing
-- Shaping
-
----
-
-## 4.8 Secure Remote Access
-
-- SSH Configuration
-- SSH Verification
-
----
-
-## 4.9 File Transfer Services
-
-- TFTP
-- FTP
-
----
-
-# 5. Security Fundamentals (15%)
-
-## 5.1 Security Concepts
-
-- Threats
-- Vulnerabilities
-- Exploits
-- Mitigation
-
----
-
-## 5.2 Security Programs
-
-- User Awareness
-- Security Training
-- Physical Security
-
----
-
-## 5.3 Device Access Control
-
-- Local Passwords
-- Secure Access
-
----
-
-## 5.4 Password Policies
-
-- Password Complexity
-- Password Management
-- Multi-Factor Authentication
-- Certificates
-- Biometrics
-
----
-
-## 5.5 VPN Technologies
-
-- Remote Access VPN
-- Site-to-Site VPN
-- IPsec
-
----
-
-## 5.6 Access Control Lists (ACLs)
-
-- Standard ACLs
-- Extended ACLs
-- Verification
-
----
-
-## 5.7 Layer 2 Security
-
-- DHCP Snooping
-- Dynamic ARP Inspection
-- Port Security
-
----
-
-## 5.8 AAA
-
-- Authentication
-- Authorization
-- Accounting
-
----
-
-## 5.9 Wireless Security
-
-- WPA
-- WPA2
-- WPA3
-
----
-
-## 5.10 WLAN Configuration
-
-- WPA2-PSK Configuration
-- Verification
-
----
-
-# 6. Automation and Programmability (10%)
-
-## 6.1 Network Automation
-
-- Benefits
-- Use Cases
-
----
-
-## 6.2 Controller-Based Networking
-
-- Traditional Networks
-- SDN
-- Controller-Based Networks
-
----
-
-## 6.3 Software-Defined Architecture
-
-- Overlay
-- Underlay
-- Fabric
-- Control Plane
-- Data Plane
-- Northbound APIs
-- Southbound APIs
-
----
-
-## 6.4 AI and Machine Learning
-
-- Predictive AI
-- Generative AI
-- Network Operations
-
----
-
-## 6.5 REST APIs
-
-- Authentication
-- CRUD Operations
-- HTTP Methods
-- JSON
-- XML
-
----
-
-## 6.6 Configuration Management
-
-- Ansible
-- Terraform
-
----
-
-## 6.7 JSON
-
-- Objects
-- Arrays
-- Key-Value Pairs
-- JSON Syntax
-
----
-
-# Recommended Lab Software
-
-- Cisco Packet Tracer
-- Cisco Modeling Labs (CML)
-- GNS3
-- Wireshark
-- VirtualBox
-
----
-
-# Study Tips
-
-- Complete the lessons in numerical order.
-- Build every Packet Tracer lab yourself.
-- Practice subnetting regularly until it becomes second nature.
-- Learn to interpret routing tables without relying on memorization.
-- Practice using the Cisco CLI daily.
-- Review troubleshooting scenarios after each topic.
-- Complete the review questions before moving to the next lesson.
-
----
-
-# License
-
-This project is licensed under the **MIT License**.
+*Chapters are built one module (or sub-objective, like 1.1.a / 1.1.b) at a time in the same format: learning objectives, Packet Tracer activities, and a quick check for understanding. Tell me which module to write next and it'll be added — and linked — here.*
